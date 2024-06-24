@@ -1,5 +1,5 @@
 ---
-title: "Oft Specfications as Pdf"
+title: "OFT Specifications as PDF"
 date: 2018-07-03T19:46:42+02:00
 draft: false
 params:
@@ -7,6 +7,8 @@ params:
 ---
 
 [PDFs](https://www.techterms.com/definition/pdf) are a fixed-size document format, which means that they made more sense in the days when PCs all had about the same video resolutions and screen geometries. But even then, they were never perfect for displaying them on a screen because most are in portrait mode and monitors rarely were. Nowadays, displays especially in mobile devices come in all shapes and sizes, so fixed-size formats are even more obsolete.
+
+<!--more-->
 
 What PDFs excel at to the present day is a universal document exchange format for read-only documents — especially if you plan on printing them.
 

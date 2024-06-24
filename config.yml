@@ -1,5 +1,10 @@
 baseURL: 'http://blog.itsallcode.org/'
-languageCode: 'en-US'
+languageCode: 'en-us'
 defaultContentLanguage: 'en'
-title: 'Itsallcode Blog — Home of the everything-is-code enthusiasts'
+title: 'Itsallcode Blog'
 theme: 'github.com/nodejh/hugo-theme-mini'
+
+params:
+  description: 'Home of the everything-is-code enthusiasts'
+  showToc: true
+  showPowerBy: false

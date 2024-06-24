@@ -1,5 +1,5 @@
 ---
-title: "Named vs. Numeric Requirement Ids"
+title: "Named vs. Numeric Requirement IDs"
 date: 2018-07-06T20:02:12+02:00
 draft: false
 params:
@@ -7,6 +7,7 @@ params:
 ---
 
 With every new project there will be a discussion whether requirement IDs should have a unique name or simply a numbering scheme.
+<!--more-->
 
 If you look at [OFT](https://github.com/itsallcode/openfasttrace)‘s [specification document](https://github.com/itsallcode/openfasttrace/blob/develop/doc/system_requirements.md), you will see that we chose named IDs. The reason in our case is quite simple: we use the ID as reference in OFT’s native specification format (aka. “requirement-enhanced Markdown”) and it is a lot simpler to understand the connections between the specification items in different artifact types if you can tell by the name what the requirement ID is about. It also helps debugging.
 

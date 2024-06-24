@@ -6,7 +6,9 @@ params:
     author: Christoph 
 ---
 
-To keep track of my working time I wrote a small time recording tool called White Rabbit. You can find it at [https://github.com/itsallcode/white-rabbit](https://github.com/itsallcode/white-rabbit).
+To keep track of my working time I wrote a little time recording tool called White Rabbit. You can find it at [https://github.com/itsallcode/white-rabbit](https://github.com/itsallcode/white-rabbit).
+
+<!--more-->
 
 # Features
 
@@ -16,7 +18,7 @@ To keep track of my working time I wrote a small time recording tool called Whit
 - Manual interruptions: press `i` to start and stop interruptions
 - Supports weekend, public holiday, vacation, flex time and sickness (see json example)
 - Reporting of total overtime: press `r`
-- Automatic update in the background (press `u` to update manually): just keep it running and it will record your working time
+- Automatic update in the background (press `u` to update manually): just keep it running, and it will record your working time
     - Start of work is detected via
         - Program start
         - Computer resumes from sleep in the morning
@@ -28,11 +30,11 @@ To keep track of my working time I wrote a small time recording tool called Whit
     - Working time of 8h Monday to Friday
     - Mandatory break of 45 minutes after 6 hours of working
 
-# Architectural descisions
+# Architectural Descsions
 
-The architecture separates business logic (sub-project logic) from the user interface (textui). This allows you to add additional user interfaces e.g. using JavaFX or Swing.
+The architecture separates business logic (sub-project logic) from the user interface (`textui`). This allows you to add additional user interfaces e.g. using JavaFX or Swing.
 
-We use JSON for storage because this enables the user to manually make changes (e.g. add a sick day).  So we can keep the user interface as simple as possible.
+We use JSON for storage because this enables the user to manually make changes (e.g. add a sick day). So we can keep the user interface as simple as possible.
 
 # Example data file
 

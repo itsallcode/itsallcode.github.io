@@ -1,5 +1,5 @@
 ---
-title: "New Gradle Plugin for Oft"
+title: "New Gradle Plugin for OFT"
 date: 2020-05-24T20:56:01+02:00
 draft: false
 params:

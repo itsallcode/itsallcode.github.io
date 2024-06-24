@@ -8,6 +8,8 @@ params:
 
 Can you accumulate technical dept, even if you regularly clean up your sources meticulously? A short while ago I would have said that this is possible but unlikely. That was before I started taking on the migration of all of [OpenFastTrace](https://github.com/itsallcode/openfasttrace)‘s unit tests from [JUnit4](https://junit.org/junit4/) to [JUnit5](https://junit.org/junit5/).
 
+<!--more-->
+
 Like most non-trivial projects OFT accumulated quite a number of unit tests over the years and although it was always the plan to move to JUnit5 some day, they were all written for JUnit4. With the arrival of [OFT 2.0.0](https://github.com/itsallcode/openfasttrace/releases/tag/2.0.0) — which also was a major refactoring endeavor — I felt now would be the perfect time to make that migration happen. After all I was in the refactoring flow.
 
 ## To rule them all…
