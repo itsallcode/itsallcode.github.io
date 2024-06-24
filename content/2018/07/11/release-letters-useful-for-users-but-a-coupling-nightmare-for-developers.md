@@ -1,7 +1,7 @@
 ---
 title: "Release letters – useful for users but a coupling nightmare for developers"
 date: 2018-07-11T20:13:42+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

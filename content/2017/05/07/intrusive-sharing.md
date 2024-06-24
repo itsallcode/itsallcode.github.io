@@ -1,7 +1,7 @@
 ---
 title: "Intrusive Sharing"
 date: 2017-05-07T15:34:46+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

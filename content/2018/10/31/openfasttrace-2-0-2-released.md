@@ -1,7 +1,7 @@
 ---
 title: "Openfasttrace 2 0 2 Released"
 date: 2018-10-31T20:29:27+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

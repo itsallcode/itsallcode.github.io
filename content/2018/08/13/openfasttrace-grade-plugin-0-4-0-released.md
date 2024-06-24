@@ -1,7 +1,7 @@
 ---
 title: "OpenFastTrace Gradle plugin 0.4.0 released"
 date: 2018-10-13T20:21:32+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

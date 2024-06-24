@@ -1,7 +1,7 @@
 ---
 title: "OpenFastTrace 2.2.0 Released"
 date: 2018-12-08T20:37:35+02:00
-draft: true
+draft: false
 params:
     author: Christoph
 ---

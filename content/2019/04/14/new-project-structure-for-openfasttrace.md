@@ -1,7 +1,7 @@
 ---
 title: "New Project Structure for OpenFastTrace"
 date: 2024-06-23T20:53:01+02:00
-draft: true
+draft: false
 params:
     author: Christoph
 ---

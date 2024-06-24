@@ -1,7 +1,7 @@
 ---
 title: "Oft Specfications as Pdf"
 date: 2018-07-03T19:46:42+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Releasing to Maven Central"
 date: 2018-07-01T16:38:06+02:00
-draft: true
+draft: false
 params:
     author: Christoph
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Gradle Plugin Upgraded to Openfasttrace 2 1 0"
 date: 2018-11-24T20:33:37+02:00
-draft: true
+draft: false
 params:
     author: Christoph
 ---

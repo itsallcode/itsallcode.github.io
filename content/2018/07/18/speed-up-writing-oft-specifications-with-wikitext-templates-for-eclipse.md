@@ -1,7 +1,7 @@
 ---
 title: "Speed up Writing OFT Specifications With WikiText Templates for Eclipse"
 date: 2018-07-18T20:19:36+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

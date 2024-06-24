@@ -1,7 +1,7 @@
 ---
 title: "New Gradle Plugin for Oft"
 date: 2020-05-24T20:56:01+02:00
-draft: true
+draft: false
 params:
     author: Christoph
 ---

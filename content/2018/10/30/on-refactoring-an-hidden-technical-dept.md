@@ -1,7 +1,7 @@
 ---
 title: "On Refactoring an Hidden Technical Dept"
 date: 2018-10-30T20:26:53+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

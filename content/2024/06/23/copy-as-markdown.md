@@ -1,7 +1,7 @@
 ---
 title: "Copy as Markdown"
 date: 2024-06-23T20:00:23+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

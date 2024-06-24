@@ -1,7 +1,7 @@
 ---
 title: "Recovering Jpgs From a Broken File System on a Flash Disk"
 date: 2018-11-25T20:36:13+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---
