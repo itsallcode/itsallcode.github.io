@@ -1,7 +1,7 @@
 ---
 title: "OpenFastTrace 2.1.0 released"
 date: 2018-11-22T20:31:41+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

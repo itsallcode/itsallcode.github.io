@@ -1,7 +1,7 @@
 ---
 title: "Samsung Printer \"Security\""
 date: 2017-07-14T15:51:12+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

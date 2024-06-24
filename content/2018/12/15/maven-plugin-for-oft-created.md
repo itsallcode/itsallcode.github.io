@@ -1,7 +1,7 @@
 ---
 title: "Maven Plugin for Oft Created"
 date: 2018-12-15T20:44:05+02:00
-draft: true
+draft: false
 params:
     author: Christoph
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Openfasttrace 1 1 0 Released"
 date: 2018-07-14T20:17:27+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

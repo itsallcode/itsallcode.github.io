@@ -1,7 +1,7 @@
 ---
 title: "Gradle Plugin Supports HTML Reports"
 date: 2018-12-12T20:40:59+02:00
-draft: true
+draft: false
 params:
     author: Christoph
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Slow Bash Auto Completion"
 date: 2018-12-19T20:47:08+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

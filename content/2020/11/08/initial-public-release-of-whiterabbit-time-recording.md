@@ -1,7 +1,7 @@
 ---
 title: "Initial Public Release of Whiterabbit Time Recording"
 date: 2020-11-08T20:57:31+02:00
-draft: true
+draft: false
 params:
     author: Christoph
 ---

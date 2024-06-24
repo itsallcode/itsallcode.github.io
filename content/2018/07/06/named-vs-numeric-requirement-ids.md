@@ -1,7 +1,7 @@
 ---
 title: "Named vs. Numeric Requirement Ids"
 date: 2018-07-06T20:02:12+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

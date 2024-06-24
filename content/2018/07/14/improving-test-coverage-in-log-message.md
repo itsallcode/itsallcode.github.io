@@ -1,7 +1,7 @@
 ---
 title: "Improving Test Coverage in log Message"
 date: 2018-07-14T20:15:00+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---

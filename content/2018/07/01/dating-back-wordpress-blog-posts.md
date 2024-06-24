@@ -1,7 +1,7 @@
 ---
 title: "Dating Back WordPress Blog Posts"
 date: 2018-07-01T19:30:28+02:00
-draft: true
+draft: false
 params:
     author: Sebastian
 ---
