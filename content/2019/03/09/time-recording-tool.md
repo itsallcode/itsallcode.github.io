@@ -30,7 +30,7 @@ To keep track of my working time I wrote a little time recording tool called Whi
     - Working time of 8h Monday to Friday
     - Mandatory break of 45 minutes after 6 hours of working
 
-# Architectural Descsions
+# Architectural Decisions
 
 The architecture separates business logic (sub-project logic) from the user interface (`textui`). This allows you to add additional user interfaces e.g. using JavaFX or Swing.
 
