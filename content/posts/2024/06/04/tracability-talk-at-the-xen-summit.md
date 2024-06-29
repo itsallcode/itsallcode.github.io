@@ -1,6 +1,6 @@
 ---
 title: "Tracability Talk at the Xen Summit"
-date: "2024-06-04T19:59:27+02:00"
+date: 2024-06-04T19:59:27+02:00
 draft: false
 params:
     author: Sebastian

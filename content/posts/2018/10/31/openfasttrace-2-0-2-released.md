@@ -1,5 +1,5 @@
 ---
-title: "Openfasttrace 2 0 2 Released"
+title: "OpenFastTrace 2.0.2 Released"
 date: 2018-10-31T20:29:27+02:00
 draft: false
 params:
