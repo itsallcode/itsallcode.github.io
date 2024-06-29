@@ -4,4 +4,4 @@
 *.old
 *.log
 *.lock
-public/
+/public/
