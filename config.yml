@@ -21,6 +21,7 @@ params:
       url: 'https://github.com/itsallcode'
     - id: youtube
       url: 'https://www.youtube.com/@itsallcode-org'
+  mainSections: ['posts']
 
 menu:
   main:
