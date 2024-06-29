@@ -16,11 +16,11 @@ I used the [Mockito](http://mockito.org/) mocking framework to verify that an in
 
 The error was hiding in a regular expression which read
 
-"Needs:\\s*(\\w+(?:,\\s*\\w+)+)"
+    "Needs:\\s*(\\w+(?:,\\s*\\w+)+)"
 
 instead of
 
-"Needs:\\s*(\\w+(?:,\\s*\\w+)*)"
+    "Needs:\\s*(\\w+(?:,\\s*\\w+)*)"
 
 Notice the asterisk in the end.
 
