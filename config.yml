@@ -5,7 +5,11 @@ defaultContentLanguage: 'en'
 pygmentsCodeFences: true
 theme: 'anubis2'
 paginate: 5
-copyright: "Copyright &copy; 2024 - Itsallcode.org authors"
+author:
+  name: 'Itsallcode.org authors'
+
+
+
 
 params:
   description: 'Home of the everything-is-code enthusiasts'
@@ -26,21 +30,30 @@ params:
 menu:
   main:
     - identifier: 'home'
-      name: 'Posts'
+      name: 'Home'
       url: '/'
       weight: 1
 
     - identifier: 'oft'
       name: 'OpenFastTrace'
       url: 'https://github.com/itsallcode/openfasttrace'
-      weight: 2
+      weight: 10
 
     - identifier: 'wr'
       name: 'White Rabbit'
       url: 'https://github.com/itsallcode/white-rabbit'
-      weight: 2
+      weight: 20
 
     - identifier: 'tags'
       name: 'Tags'
       url: '/tags/'
-      weight: 5
+      weight: 30
+
+    - identifier: 'archive'
+      name: 'Archive'
+      url: '/posts/'
+      weight: 40
+
+    - identifier: 'about'
+      name: 'About'
+      url: '/pages/about'
