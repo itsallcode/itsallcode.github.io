@@ -3,6 +3,7 @@ title: "Blogging with the GitHub app"
 date: "2024-07-09T08:00:00+02:00"
 draft: false
 author: "Sebastian"
+date: 2024-07-09T20:00:00+00:00
 ---
 
 Since we decided to switch to a Hugo blog, there has always been the nagging question how to blog on a mobile device. Generally, a kind of IDE would be nice. But every thing I found was targeted at Javascript. 
