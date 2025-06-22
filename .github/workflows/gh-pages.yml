@@ -20,7 +20,9 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        run: sudo apt install hugo
+        run: |
+          sudo apt-get update
+          sudo apt-get install hugo
 
       - name: Build
         run: hugo --minify
