@@ -1,7 +1,7 @@
 ---
 title: "4.2.0, the release to Maven central that drove us mad"
-date: "2025-06-22T14:26:00+01:00"
-draft: false
+description: "Release 4.2.0 of OpenFastTrace took us almost a month to make. The reason was that we needed to switch to the new Maven Central deployment mechanism. Which turned out to be a lot harder than expected."
+date: "2025-06-22"
 author: Sebastian
 ---
 

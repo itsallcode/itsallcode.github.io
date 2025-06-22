@@ -4,7 +4,8 @@ languageCode: 'en-us'
 defaultContentLanguage: 'en'
 pygmentsCodeFences: true
 theme: 'anubis2'
-paginate: 5
+pagination:
+  pagerSize: 5
 author:
   name: 'Itsallcode.org authors'
 
