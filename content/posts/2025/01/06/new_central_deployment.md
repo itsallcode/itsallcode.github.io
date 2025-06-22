@@ -5,7 +5,9 @@ draft: false
 author: Sebastian
 ---
 
-Although the feature set change for version 4.2.0 is not that big, that was the most painful release we had sofar.
+Although the feature set change for version 4.2.0 is not that big, that was the most painful release we had so far.
+
+## The Challenge of the new Maven Central Deployment
 
 To understand the rant that is about to follow, one must know that this year Sonatype changed the way releases are deployed to the Central repository (formerly known as Maven Central).
 
@@ -15,15 +17,21 @@ Trouble starts with the fact that the new Maven plugin for the deployment has a 
 
 Especially, it was not clear how the new plugin played together with the existing `maven-deploy-plugin`. And let me tell you, the setup is not straight forward.
 
-To give you an example, with the Maven Central deployment plugin it should be clear what the server URL of the central repository is. That could very well be hard-coded into the plugin as a default value. Unfortunately, while the `maven-deploy-plugin` doest not do the actual deployment anymore, it still requires configuring the repo URLs.
+To give you an example, with the Maven Central deployment plugin it should be clear what the server URL of the central repository is. That could very well be hard-coded into the plugin as a default value. Unfortunately, while the `maven-deploy-plugin` does not do the actual deployment anymore, it still requires configuring the repo URLs.
+
+## Multi-module Deployments are Hard
 
 To make things worse, OFT is a pretty complicated multi-module Maven project, where most modules should be on the Central repository but at least one — namely the `testutils` — does not belong there.
 
-Excluding that one module turned out to be super finicky. Like jumping through a set of burning hoops while being blindfolded and having frozen turkey being fired at you from a dozen catapults.
+Excluding that one module turned out to be super finicky. Like jumping through a set of burning hoops while being blindfolded and having frozen turkey being fired at you from a dozen catapults. The winning strategy in the end turned out to have two different parent POMs, one for the modules that get deployed on Maven central and one for those which don't. To avoid code duplication, the one with the deployment configuration includes the one without as parent module.
+
+## Pushing Through
 
 It took the combined efforts of Christoph and me, and a lot of exploring dead ends until we finally got it right.  If you are interested in the solution, check [PR #464](https://github.com/itsallcode/openfasttrace/pull/464/files).
 
-I added a section about the [module structure](https://github.com/itsallcode/openfasttrace/blob/main/doc/developer_guide.md#module-overview) and what that means for the deployment to the developer guide, and Christoph contributed a section about [debugging the new Central deployment](https://github.com/itsallcode/openfasttrace/blob/main/doc/developer_guide.md#debugging-maven-central-deployment.
+I added a section about the [module structure](https://github.com/itsallcode/openfasttrace/blob/main/doc/developer_guide.md#module-overview) and what that means for the deployment to the developer guide, and Christoph contributed a section about [debugging the new Central deployment](https://github.com/itsallcode/openfasttrace/blob/main/doc/developer_guide.md#debugging-maven-central-deployment).
+
+## What's new?
 
 In total, that release took us around a month until we had it ready. We improved a lot of documentation, updated dependencies, added support for new JavaScript extensions and added a feature that allows ignoring specification items inside Markdown code blocks. In the course of that last feature, we also added markers `oft:on|off` that allow excluding OFT parsing for selected text passages.
 
