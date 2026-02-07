@@ -14,19 +14,19 @@ author:
 
 params:
   description: 'Home of the everything-is-code enthusiasts'
-  colorTheme: 'auto'
-  colorThemeSwitcher: 'true'
-  paginationSinglePost: true
-  toc: true
-  readMore: true
-  GoogleAnalytics:
-    enabled: false
-  social:
-    - id: 'github'
-      url: 'https://github.com/itsallcode'
-    - id: youtube
-      url: 'https://www.youtube.com/@itsallcode-org'
   mainSections: ['posts']
+  anubis2:
+    colortheme: 'auto'
+    colorthemeswitcher: 'true'
+    enablesummary: true
+    enablereadmorebutton: true
+    paginationsinglepost: true
+    tocsthreshold: 300
+    social:
+      - id: 'github'
+        url: 'https://github.com/itsallcode'
+      - id: youtube
+        url: 'https://www.youtube.com/@itsallcode-org'
 
 menu:
   main:
