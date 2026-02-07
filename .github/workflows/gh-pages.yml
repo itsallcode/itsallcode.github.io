@@ -7,7 +7,7 @@ on:
   pull_request:
 
 env:
-  HUGO_VERSION: "0.147.8"
+  HUGO_VERSION: "0.155.2"
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
