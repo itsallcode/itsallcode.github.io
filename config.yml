@@ -17,16 +17,16 @@ params:
   mainSections: ['posts']
   anubis2:
     colortheme: 'auto'
-    colorthemeswitcher: 'true'
+    enablecolorthemeswitcher: true
     enablesummary: true
     enablereadmorebutton: true
-    paginationsinglepost: true
-    tocsthreshold: 300
-    social:
+    tocwordcount: 300
+    socialicons:
       - id: 'github'
         url: 'https://github.com/itsallcode'
       - id: youtube
         url: 'https://www.youtube.com/@itsallcode-org'
+  paginationsinglepost: true
 
 menu:
   main:
