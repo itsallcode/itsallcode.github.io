@@ -24,8 +24,10 @@ params:
     socialicons:
       - id: 'github'
         url: 'https://github.com/itsallcode'
-      - id: youtube
+      - id: 'youtube'
         url: 'https://www.youtube.com/@itsallcode-org'
+      - id: 'mastodon'
+        url: 'https://mastodon.social/@OpenFastTrace'
   paginationsinglepost: true
 
 menu:
