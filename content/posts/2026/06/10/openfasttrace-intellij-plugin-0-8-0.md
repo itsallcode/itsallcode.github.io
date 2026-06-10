@@ -2,7 +2,7 @@
 title: "OpenFastTrace IntelliJ Plugin 0.8.0"
 date: "2026-06-10T19:25:40+02:00"
 draft: false
-author: "sebastian"
+author: "Sebastian"
 ---
 
 The [OpenFastTrace IntelliJ Plugin 0.8.0](https://github.com/itsallcode/openfasttrace-intellij-plugin/releases/tag/0.8.0) is out. While version 0.7.0 made OFT runs configurable, this release focuses on how you interact with the results.
