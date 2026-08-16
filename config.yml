@@ -20,7 +20,6 @@ params:
   description: 'Home of the everything-is-code enthusiasts'
   mainSections: ['posts']
   anubis2:
-    colortheme: 'auto'
     enablecolorthemeswitcher: true
     enablesummary: true
     enablereadmorebutton: true
