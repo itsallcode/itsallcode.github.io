@@ -49,9 +49,15 @@ OpenFastTrace is a cornerstone for **Agentic Development**—a workflow where AI
 
 ### Videos
 
-{{< youtube tlzMT6RaVWA >}}
+<figure>
+    {{< youtube tlzMT6RaVWA >}}
+    <figcaption>Introduction to OpenFastTrace</figcaption>
+</figure>
 
-{{< youtube P2o_swwQTNE >}}
+<figure>
+    {{< youtube P2o_swwQTNE >}}
+    <figcaption>OpenFastTrace Presentation at Xen Summit</figcaption>
+</figure>
 
 ### Resources
 

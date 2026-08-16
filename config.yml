@@ -4,6 +4,10 @@ languageCode: 'en-us'
 defaultContentLanguage: 'en'
 pygmentsCodeFences: true
 theme: 'anubis2'
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 pagination:
   pagerSize: 5
 author:
