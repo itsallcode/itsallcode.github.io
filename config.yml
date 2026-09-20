@@ -42,7 +42,7 @@ menu:
 
     - identifier: 'oft'
       name: 'OpenFastTrace'
-      url: '/pages/openfasttrace'
+      url: 'https://openfasttrace.itsallcode.org'
       weight: 10
 
     - identifier: 'wr'
