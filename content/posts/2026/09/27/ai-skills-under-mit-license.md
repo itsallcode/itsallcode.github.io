@@ -5,8 +5,6 @@ draft: false
 author: sebastian
 ---
 
-# AI Skills Under MIT License
-
 After feedback from our community, we have decided to release the AI skills under the MIT License.
 
 To make this more clear, we moved the skills to a separate repository:
