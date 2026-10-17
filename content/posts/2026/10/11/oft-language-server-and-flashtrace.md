@@ -5,7 +5,7 @@ draft: false
 author: "sebastian"
 ---
 
-Last Sunday, the OpenFastTrace team met with Prof. Oliver Kopp, Felix Gorke and Lennart Solterbeck to talk about the background, history and design of OFT. It was a good opportunity to compare notes on traceability tools and the decisions that shape them.
+Last Sunday, the OpenFastTrace team met with Prof. Dr. Oliver Kopp, Felix Gorke and Lennart Solterbeck to talk about the background, history and design of OFT. It was a good opportunity to compare notes on traceability tools and the decisions that shape them.
 
 ## A Language Server for OFT
 
